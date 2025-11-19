@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta name="Contact menu" content="Details to contact ">
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<main>
+    <h1>Contact Us</h1>
+
+    <p>Email: info@masinyusane.org</p>
+    <p>Phone: +27 83 555 6789</p>
+
+    <h2>Send Us a Message</h2>
+
+    <form action="mailto:info@masinyusane.org" method="post" enctype="text/plain">
+        <label for="fullname">Full Name:</label><br>
+        <input type="text" id="fullname" name="fullname" required minlength="3"><br><br>
+
+        <label for="email">Your Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="type">Message Type:</label><br>
+        <select id="type" name="type" required>
+            <option value="">-- Select --</option>
+            <option value="general">General Enquiry</option>
+            <option value="support">Support Request</option>
+            <option value="complaint">Complaint</option>
+        </select><br><br>
+
+        <label for="message">Your Message:</label><br>
+        <textarea id="message" name="message" required minlength="10"></textarea><br><br>
+
+        <button type="submit">Send Message</button>
+    </form>
+
+    <h2>Our Offices</h2>
+
+    <h3>New Brighton, Gqeberha</h3>
+    <iframe src="https://maps.google.com/?q=New+Brighton+Gqeberha&output=embed"
+            width="100%" height="250" style="border:0;"></iframe>
+
+    <h3>Central, Gqeberha</h3>
+    <iframe src="https://maps.google.com/?q=Central+Gqeberha&output=embed"
+            width="100%" height="250" style="border:0;"></iframe>
+
+
+
+</main>
+
+</body>
+</html>

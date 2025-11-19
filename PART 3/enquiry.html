@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Enquiry</title>
+<meta name="Contact us" content="Contact us if you have any problems">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<main>
+  <h1>Volunteer or Become a Sponsor</h1>
+
+  <form id="enquiryForm">
+
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="name"><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br>
+
+    <label for="phone">Phone:</label><br>
+    <input type="text" id="phone" name="phone" placeholder="+27831234567"><br>
+
+    <label for="role">I want to:</label><br>
+    <select id="role" name="role">
+      <option value="volunteer">Be a volunteer</option>
+      <option value="sponsor">Become a sponsor</option>
+    </select><br>
+
+    <label for="msg">Message:</label><br>
+    <textarea id="msg" name="msg"></textarea><br>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <p id="response" style="color:blue; font-weight:bold; margin-top:15px;"></p>
+
+</main>
+
+
+
+<script>
+// JavaScript validation and result message
+document.getElementById("enquiryForm").addEventListener("submit", function(event){
+    event.preventDefault();
+
+    const role = document.getElementById("role").value;
+    const response = document.getElementById("response");
+
+    if(role === "volunteer"){
+        response.textContent = "Thank you! Our volunteer coordinator will contact you with available opportunities.";
+    } else if(role === "sponsor"){
+        response.textContent = "Thank you! We will send you sponsorship package details shortly.";
+    }
+});
+
+
+
+
+
+</script>
+</body>
+</html>
+
+
