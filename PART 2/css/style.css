@@ -1,0 +1,142 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: lemonchiffon;
+  color: black;
+  padding: 20px;
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: crimson;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 15px;
+}
+
+/* Links */
+a {
+  color: deeppink;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Layout structure */
+
+/* Navigation */
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+nav a {
+  padding: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: gold;
+}
+
+/* Hero section */
+.hero {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.hero img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: dodgerblue;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: mediumblue;
+}
+
+/* Visual style */
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: lightcoral;
+  font-size: 0.9rem;
+}
+
+/* Pseudo-classes */
+button:hover,
+a:focus,
+a:active {
+  opacity: 0.85;
+}
+
+/* Responsive design */
+
+/* Breakpoints */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  body {
+    padding: 10px;
+  }
+}
+
+/* Responsive images */
+
+/* Relative units */
+body {
+  font-size: 1rem; /* base size */
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive image loading */
+img[srcset] {
+  width: 100%;
+  height: auto;
+}
