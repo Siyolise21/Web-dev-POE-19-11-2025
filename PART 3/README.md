@@ -44,6 +44,10 @@ colour palettes and layout choices.
 -Created the CSS FILE
 -inserted the link code so my html files can be linked with the CSS FILE 
 -On the 26 of september 2025 i implemented many changes to the CSS file such as changing code named colours to named colours also edited the code to have a pseudo class and also if other devices are used to navigate to this website it meets the requirements of the device such as device size, image resolutions and font size.Changed the colours to set a more vibrant user friendly field
+-on the 17th of november 2025 i added more CSS style design to make the website much more eye catching and comfortable in terms of colours to acomodate ephileptic users no flashing colours
+-on the 18th of november 2025 i then edited my enquiry.html page because it would not display the message box
+-19th november created/edited the sitemap.xml document and robot.txt document
+
 
 
 #### REFERENCES:
