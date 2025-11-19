@@ -38,7 +38,82 @@ I would improve the websites navigation such as add search functions and site ma
 the website easier to use none of that complicated/amateur functions. I would like to show 
 more visuals instead of text to catch the users attention. I would like to also use more fonts, 
 colour palettes and layout choices. 
+## CHANGE LOG:
+-Updated my readme.md file 
+-pushed the css folder to my WEB development POE 2 Depository
+-Created the CSS FILE
+-inserted the link code so my html files can be linked with the CSS FILE 
+-On the 26 of september 2025 i implemented many changes to the CSS file such as changing code named colours to named colours also edited the code to have a pseudo class and also if other devices are used to navigate to this website it meets the requirements of the device such as device size, image resolutions and font size.Changed the colours to set a more vibrant user friendly field
+-on the 17th of november 2025 i added more CSS style design to make the website much more eye catching and comfortable in terms of colours to acomodate ephileptic users no flashing colours
+-on the 18th of november 2025 i then edited my enquiry.html page because it would not display the message box
+-19th november created/edited the sitemap.xml document and robot.txt document
 
+
+
+#### REFERENCES:
+## WEBSITES/ONLINE SOURCES:
+Masinyusane. (n.d.) Masinyusane Development Organisation. [online] Available at: http://www.masinyusane.org
+ [Accessed 26 August 2025].
+
+HeraldLIVE. (n.d.) [Homepage]. [online] Available at: http://www.heraldlive.co.za
+ [Accessed 26 August 2025].
+
+Algoa FM. (n.d.) Algoa Cares: Masinyusane Development Organisation. [online] Available at: http://www.algoafm.co.za/algoa-cares/masinyusane-development-organisation
+ [Accessed 26 August 2025].
+
+Hosting24. (n.d.) Web Hosting Packages. [online] Available at: http://www.hosting24.co.za/web-hosting-packages
+ [Accessed 26 August 2025].
+
+mCloud9. (n.d.) Breaking Down Website Hosting Costs. [online] Available at: http://www.mcloud9.co.za/blog/breaking-down-website-hosting-costs
+ [Accessed 26 August 2025].
+
+Reddit. (2022) South Africa Thread Discussion. [online] Available at: https://www.reddit.com/r/southafrica/comments/vnas9z
+ [Accessed 26 August 2025].
+
+ #### IMAGES:
+
+Masinyusane. (n.d.) Photo of Jim Mckeown and Fiks Mahola. [online image] Available at: https://www.masinyusane.org
+ [Accessed 26 August 2025].
+
+Masinyusane. (n.d.) Organisation logo. [online image] Available at: https://www.masinyusane.org
+ [Accessed 26 August 2025].
+ 
+## Timeline and Milestones
+
+```mermaid
+flowchart TD
+    A["WEEK 1: Project kick-off and gathering requirements (Day 5)"]
+    B["WEEK 2: Domain and Hosting setup (Day 12)"]
+    C["WEEK 3: Design mock-ups and wireframes (Day 19)"]
+    D["WEEK 4: Design feedback and revisions (Day 26)"]
+    E["WEEK 5-6: Development phase (Day 40)"]
+    F["WEEK 7-8: Content integration, visual enhancements & Testing (Day 47)"]
+    G["WEEK 9: Client review and final adjustments (Day 54)"]
+    H["WEEK 10: Prelaunch preparations (Day 61)"]
+    I["WEEK 11: Website launch (Day 75)"]
+    J["WEEK 12: Post Launch support and training (Day 82)"]
+    K["✅ COMPLETE"]
+
+    A --> B --> C --> D --> E --> F --> G --> H --> I --> J --> K
+
+```
+
+
+
+
+mermaid 
+
+
+
+
+graph TD
+    A[Homepage (index.html)]
+    A --> B[About Us (about.html)]
+    A --> C[Services (services.html)]
+    A --> D[Enquiry (enquiry.html)]
+    A --> E[Contact (contact.html)]
+
+```
 
 -On the 15th of november i kicked off starting my POE encounted issues received positive feedback on Part 2 but was not satisfied and needed to make my website better for users.
 
