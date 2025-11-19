@@ -6,4 +6,6 @@
 
 -on the 18th of november 2025 i then edited my enquiry.html page because it would not display the message box.
 
+-19th november created/edited the sitemap.xml document and robot.txt document and remaining tasks.
+
 
