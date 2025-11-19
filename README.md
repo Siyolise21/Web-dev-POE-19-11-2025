@@ -4,3 +4,6 @@
 
 -on the 17th of november 2025 i added more CSS style design to make the website much more eye catching and comfortable in terms of colours to acomodate ephileptic users no flashing colours.
 
+-on the 18th of november 2025 i then edited my enquiry.html page because it would not display the message box.
+
+
