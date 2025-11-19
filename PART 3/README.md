@@ -1,4 +1,4 @@
-# WEB-DEVELOPMENT-POE-2
+# WEB-DEVELOPMENT-POE-3
 
 #### STUDENT INFORMATION:
 
@@ -24,7 +24,7 @@ Part 1 is simply a proposal explaining the purpose of my website,more informatio
 Part 2 consists of CSS Styling to add more colours and styles to the website,we are slowly moving away from the website being basic as we are implementing various user interactions 
 
 #### PART 3 : 
-Part 3 coming soon
+Part 3 is adding java script and other functions/interactions for the website,applying SEO(search engine optimization). I also added more fields and forms with HTML code also implemented a validation method to validate the requirements on the forms
 
 #### WEBSITE GOALS AND OBJECTIVES:
 I would like for the website to attract potential investors to this organisation, more people to 
